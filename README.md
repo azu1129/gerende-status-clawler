@@ -10,3 +10,11 @@
 * chrome (--headless 可能なバージョン CentOSならCentOS6以上必須)
 * chromedriver
 * pip install pyYAML
+
+# usage
+
+$ crontab -e
+```
+08 10,13,15 * 11-12,1-5 * ~/gerende-status-clawler/kick_clawler.sh
+```
+
