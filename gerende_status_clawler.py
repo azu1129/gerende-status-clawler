@@ -16,6 +16,7 @@ gerendes = yaml.load(f)
 f.close()
 
 # ヘッドレスChromeの設定
+# メモ：ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context. は気にしなくて良い
 browser_bin     = "google-chrome"
 browser_options = ["--headless",
                    "--disable-gpu",

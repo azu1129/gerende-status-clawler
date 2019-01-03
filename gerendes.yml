@@ -1,5 +1,10 @@
 # --- 18-19シーズン ゲレンデ情報 ---
 
+# example
+- name: example
+  type: main/weather/lift/condition
+  url: xxxx://xxxxxx
+
 # ----------- 白馬エリア ----------------
 
 # 白馬八方
@@ -92,66 +97,150 @@
 
 # かぐら
 - name: kagura
-  type: main
-  url: xxxxxx
+  type: weather
+  url: http://www2.princehotels.co.jp/ski/kagura/
+
+# かぐら
+- name: kagura
+  type: lift
+  url: http://www2.princehotels.co.jp/ski/kagura/coursemap/guide.html/
 
 # ガーラ
 - name: gala
-  type: main
-  url: xxxxxx
+  type: weather
+  url: https://gala.co.jp/winter/
+
+# ガーラ
+- name: gala
+  type: lift
+  url: https://gala.co.jp/winter/course.html
 
 # 神立
 - name: kandatsu
   type: main
-  url: xxxxxx
+  url: http://www.kandatsu.com/
 
 # ----------- 水上エリア -----------
 
 # 宝台樹
 - name: houdaigi
   type: main
-  url: xxxxxx
+  url: https://hodaigi.jp/
 
 # ホワイトバレー
 - name: whitevalley
   type: main
-  url: xxxxxx
+  url: https://www.whitevalley.jp/
 
 # 天神平
 - name: tenjindaira
   type: main
-  url: xxxxxx
+  url: http://www.tanigawadake-rw.com/
 
-# xxxxxxxxxxxxx
-- name: xxxxx
+# 奥利根
+- name: okutone
   type: main
-  url: xxxxxx
+  url: https://okutone.jp/
 
 # ----------- 沼田エリア -----------
 
 # 川場
 - name: kawaba
   type: main
-  url: xxxxxx
+  url: https://www.kawaba.co.jp/snow/
 
 # たんばら
 - name: tanbara
   type: main
-  url: xxxxxx
+  url: https://www.snow-tambara.jp/gelande/
 
-# 
-- name: xxxxx
+# 尾瀬岩倉
+- name: oze-iwakura
   type: main
-  url: xxxxxx
+  url: http://www.oze-iwakura.co.jp/ski/
 
 # ----------- 猪苗代エリア ----------------
 
+# グランデコ
+- name: grandeco
+  type: main
+  url: https://www.snow-grandeco.com/gelande/
+
+# アルツ磐梯
+- name: alts
+  type: main
+  url: https://www.alts.co.jp/
+
 # ----------- 南会津エリア ----------------
+
+# たかつえ
+- name: takatsue
+  type: main
+  url: http://takatsue.jp/
 
 # ----------- 岩手秋田エリア ----------------
 
+# 田沢湖
+- name: tazawako
+  type: main
+  url: http://www.tazawako-ski.com/
+
+# 安比
+- name: appi
+  type: weather
+  url: https://www.appi.co.jp/adsta/pc/adsta_p01.php
+
+# 安比
+- name: appi
+  type: condition
+  url: https://www.appi.co.jp/adsta/pc/adsta_p04.php
+
+# 夏油
+- name: geto
+  type: main
+  url: http://www.geto8.com/
+
+# 岩手高原
+- name: iwate-kougen
+  type: main
+  url: https://iwatekogen.jp/
+
 # ----------- 蔵王エリア ----------------
+
+# 蔵王温泉
+- name: zao-onsen
+  type: main
+  url: http://www.zao-ski.or.jp/area-information/
 
 # ----------- 八甲田エリア ----------------
 
+# 八甲田
+- name: hakkouda
+  type: main
+  url: http://www.hakkoda-ropeway.jp/
+
 # ----------- 北海道エリア ----------------
+
+# ニセコ
+- name: niseko
+  type: main
+  url: https://www.niseko.ne.jp/ja/niseko-lift-status/
+
+# ルスツ
+- name: rusutsu
+  type: weather
+  url: https://rusutsu.co.jp/ski/slope
+
+- name: rusutsu
+  type: condition
+  url: https://rusutsu.co.jp/ski/weather#skiInfoContent
+
+# キロロ
+- name: kiroro
+  type: main
+  url: https://www.kiroro.co.jp/ja/dashboard/
+
+# トマム
+- name: tomamu
+  type: main
+  url: https://www.snowtomamu.jp/winter/ski/guide/condition.php
