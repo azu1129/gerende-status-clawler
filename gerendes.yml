@@ -1,0 +1,157 @@
+# --- 18-19シーズン ゲレンデ情報 ---
+
+# ----------- 白馬エリア ----------------
+
+# 白馬八方
+- name: hakuba-happo
+  type: weather
+  url: http://www.happo-one.jp/
+
+- name: hakuba-happo
+  type: lift
+  url: http://www.happo-one.jp/gelande/lift
+
+- name: hakuba-happo
+  type: condition
+  url: http://www.happo-one.jp/gelande/condition
+
+# 白馬栂池
+- name: hakuba-tsugaike
+  type: weather
+  url: http://www.tsugaike.gr.jp/gelande
+
+- name: hakuba-tsugaike
+  type: lift
+  url: http://www.tsugaike.gr.jp/lift
+
+- name: hakuba-tsugaike
+  type: condition
+  url: http://www.tsugaike.gr.jp/condition
+
+# 白馬鹿島槍
+- name: hakuba-kashimayari
+  type: main
+  url: https://www.kashimayari.net/snow/fields/gelande
+
+# ----------- 長野市周辺エリア ----------------
+
+# 野沢温泉
+- name: nozawa
+  type: main
+  url: http://www.nozawaski.com/winter/course/
+
+# 志賀高原
+- name: shiga
+  type: main
+  url: https://www.shigakogen-ski.com/
+
+- name: shiga
+  type: lift
+  url: https://www.shigakogen-ski.com/live-lift-status-all-maps
+
+# 斑尾
+- name: madarao
+  type: main
+  url: http://www.madarao.jp/ski
+
+# 関温泉
+- name: sekionsen
+  type: main
+  url: http://www.sekionsen.com/
+
+# シャルマン火打
+- name: hiuchi
+  type: main
+  url: http://charmant-hiuchi.jp/
+
+# ヤマボク
+- name: yamaboku
+  type: main
+  url: https://yamaboku.jp/
+
+# 妙高杉ノ原
+- name: suginohara
+  type: weather
+  url: http://www2.princehotels.co.jp/ski/myoko/
+
+# 妙高杉ノ原
+- name: suginohara
+  type: lift
+  url: http://www2.princehotels.co.jp/ski/myoko/coursemap/guide.html/
+
+# ----------- 越後湯沢エリア ----------------
+
+# 八海山
+- name: hakkaisan
+  type: weather
+  url: http://www2.princehotels.co.jp/ski/hakkaisan/
+
+- name: hakkaisan
+  type: lift
+  url: http://www2.princehotels.co.jp/ski/hakkaisan/coursemap/guide.html/
+
+# かぐら
+- name: kagura
+  type: main
+  url: xxxxxx
+
+# ガーラ
+- name: gala
+  type: main
+  url: xxxxxx
+
+# 神立
+- name: kandatsu
+  type: main
+  url: xxxxxx
+
+# ----------- 水上エリア -----------
+
+# 宝台樹
+- name: houdaigi
+  type: main
+  url: xxxxxx
+
+# ホワイトバレー
+- name: whitevalley
+  type: main
+  url: xxxxxx
+
+# 天神平
+- name: tenjindaira
+  type: main
+  url: xxxxxx
+
+# xxxxxxxxxxxxx
+- name: xxxxx
+  type: main
+  url: xxxxxx
+
+# ----------- 沼田エリア -----------
+
+# 川場
+- name: kawaba
+  type: main
+  url: xxxxxx
+
+# たんばら
+- name: tanbara
+  type: main
+  url: xxxxxx
+
+# 
+- name: xxxxx
+  type: main
+  url: xxxxxx
+
+# ----------- 猪苗代エリア ----------------
+
+# ----------- 南会津エリア ----------------
+
+# ----------- 岩手秋田エリア ----------------
+
+# ----------- 蔵王エリア ----------------
+
+# ----------- 八甲田エリア ----------------
+
+# ----------- 北海道エリア ----------------
